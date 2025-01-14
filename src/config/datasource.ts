@@ -3,7 +3,7 @@ import { join } from 'path';
 import { config } from 'dotenv';
 import * as process from 'node:process';
 
-const envFilePath = `${process.cwd()}/env/.env`;
+const envFilePath = `${process.cwd()}/.env`;
 
 config({ path: envFilePath });
 
