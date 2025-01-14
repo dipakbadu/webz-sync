@@ -1,0 +1,11 @@
+{
+  "preset": "jest-preset-nest",
+  "rootDir": ".",
+  "testMatch": [
+    "**/test/**/*.spec.ts"
+  ],
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "testEnvironment": "node"
+}
