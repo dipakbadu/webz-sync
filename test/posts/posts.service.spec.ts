@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { PostsService } from '../src/modules/posts/services/posts.service';
-import { WebzService } from '../src/modules/webz/services/webz.service';
-import { PostRepository } from '../src/modules/posts/repository/post-repository';
+import { PostsService } from '../../src/modules/posts/services/posts.service';
+import { WebzService } from '..../../src/modules/webz/services/webz.service';
+import { PostRepository } from '../../src/modules/posts/repository/post-repository';
 jest.mock('../src/modules/webz/services/webz.service');
 jest.mock('../src/modules/posts/repository/post-repository');
 
